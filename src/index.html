@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Web Tasarım Ödev</title>
+
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;   
+        background-image: url(images/pattern/OC1Y8F0.jpg);
+        height: 100%;
+        padding-bottom: 5000px;
+ 
+        /* background-color: #1f2937; */
+        color: white;
+      }
+      hr {
+        margin: 0;
+      }
+
+
+      .about-section {
+        background: #505050bd;
+        width: 700px;
+        height: 300px;
+        margin-left: 30%;
+        margin-top: 25px;
+        border-radius: 20px;
+        border: 2px solid #ffffff8b;
+        box-shadow: 0px 0px 30px 10px rgba(255, 255, 255, 0.22);
+        color:rgba(240, 239, 239, 0.882);
+        font-weight: bold;
+      }
+
+      .profile-picture {
+        opacity: 90%;
+
+        width: 900px;
+        padding: 10px;
+      }
+      
+      .redirect-div {
+        width: 1100px;
+        height: 400px;
+        margin-left: 20%;
+        margin-top: 50px;
+        padding-top: 20px;
+        justify-content: center;
+        border-radius: 100px;
+        background-color:rgba(49, 49, 49, 0.436);
+        box-shadow: 0px 0px 30px 10px rgba(49, 49, 49, 0.523);
+      }
+      .redirect-btn {
+        font-size: 70px;
+        padding: 10px;
+        margin: 0;
+        margin: 5%;
+        height: 240px;
+        width: 100%;
+        border-radius: 20px;
+
+        background-color: rgba(51, 144, 52, 0.919);
+      }
+
+
+
+      .profile-border-css {
+        border: 1px solid #ffffff8b;
+      }
+
+      .borderBlue {
+        border: 2px solid blue; 
+      }
+      .borderRed {
+        border: 2px solid red;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="flex about-section justify-center">
+      <div class="grid grid-cols-1">
+        <div>
+          <img class="profile-picture rounded-full" src="./images/profilePicture.jpg" alt="Mahmud Chazli Profile Picture">
+        </div>
+        <hr>
+        <div class="text-center align-baseline" style="font-weight: bold; font-size: 27px;">
+          Mahmud chazli
+        </div>
+      </div>
+
+      <div class="profile-border-css"></div>
+
+      <aside class="text-center" style="padding:70px 10px 0px 10px; font-size:22px;">
+        Merhaba ben Mahmud Chazli'yim
+        Sakarya Universitinde Bilgisayar Muhendisligi okuyorum
+        Bilgisayarlar kucuken beri ilgimi cekiyordu
+        hem kodlama acisinden hem de...
+
+      </aside>
+    </div>
+
+    <div class="flex redirect-div  ">
+      <button class="profile-border-css redirect-btn" style="font-size:60px;">
+        CV
+      </button>
+
+      <button class="profile-border-css redirect-btn" style="font-size:55px;">
+        Şehrim
+      </button>
+
+      <button class="profile-border-css redirect-btn" style="font-size:55px;">
+        iletişim
+      </button>
+    </div>
+    
+  </body>
+</html>

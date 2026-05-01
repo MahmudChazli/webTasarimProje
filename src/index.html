@@ -4,18 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
+    <link href="./default.css" rel="stylesheet">
+
     <title>Web Tasarım Ödev</title>
 
     <style>
-      body {
-        font-family: Arial, Helvetica, sans-serif;   
-        background-image: url(images/pattern/OC1Y8F0.jpg);
-        height: 100%;
-        padding-bottom: 5000px;
- 
-        /* background-color: #1f2937; */
-        color: white;
-      }
       hr {
         margin: 0;
       }
@@ -86,7 +79,9 @@
         <div>
           <img class="profile-picture rounded-full" src="./images/profilePicture.jpg" alt="Mahmud Chazli Profile Picture">
         </div>
-        <hr>
+        
+        <hr class="profile-border-css">
+        
         <div class="text-center align-baseline" style="font-weight: bold; font-size: 27px;">
           Mahmud chazli
         </div>
@@ -103,16 +98,19 @@
       </aside>
     </div>
 
-    <div class="flex redirect-div  ">
-      <button class="profile-border-css redirect-btn" style="font-size:60px;">
+    <div class="flex redirect-div">
+      <button class="profile-border-css redirect-btn" style="font-size:60px;"
+              onclick="window.open('./cv.html', '_self')">
         CV
       </button>
 
-      <button class="profile-border-css redirect-btn" style="font-size:55px;">
+      <button class="profile-border-css redirect-btn" style="font-size:55px;" 
+              onclick="window.open('./sehrim.html', '_self')">
         Şehrim
       </button>
 
-      <button class="profile-border-css redirect-btn" style="font-size:55px;">
+      <button class="profile-border-css redirect-btn" style="font-size:55px;"
+              onclick="window.open('./iletisim.html', '_self')">
         iletişim
       </button>
     </div>

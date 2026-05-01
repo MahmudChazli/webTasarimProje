@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html lang="tr-TR">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./styles/output.css" rel="stylesheet">
-    <link href="./styles/default.css" rel="stylesheet">
-    <link href="./styles/index.css" rel="stylesheet">
-    <link href="./images/icons/profilePicture.ico" rel="icon" type="image/x-icon">
+    <?php include 'php/essentialHead.php'; ?>
 
+    <link href="./styles/index.css" rel="stylesheet">
+    
     <title>Web Tasarım Ödev</title>
 
     <style>
@@ -47,17 +44,17 @@
 
     <div class="flex" id="redirect-div">
       <button class="opacity-0 redirect-btn " id="profile-border"
-              onclick="window.open('./cv.html', '_self')">
+              onclick="window.open('./cv.php', '_self')">
         CV
       </button>
 
       <button class="opacity-0 redirect-btn " id="profile-border"
-              onclick="window.open('./sehrim.html', '_self')">
+              onclick="window.open('./sehrim.php', '_self')">
         Şehrim
       </button>
 
       <button class="opacity-0 redirect-btn " id="profile-border"
-              onclick="window.open('./iletisim.html', '_self')">
+              onclick="window.open('./iletisim.php', '_self')">
         iletişim
       </button>
     </div>

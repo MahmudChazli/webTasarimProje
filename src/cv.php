@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr-TR">
 <head>
   <?php include 'php/essentialHead.php'; ?>
 

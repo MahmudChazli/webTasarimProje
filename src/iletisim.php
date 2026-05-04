@@ -9,5 +9,6 @@
 <body>
   <?php include 'php/navGeri.php'; ?>
 
+  <?php include 'php/footer.php'; ?>
 </body>
 </html>

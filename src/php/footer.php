@@ -7,8 +7,7 @@
     <div class="footer-col">
       <h3>PROJELER</h3>
       <ul>
-        <li>Otonom Bot</li>
-        <li>Görüntü İşleme</li>
+        <li>İnsansız Deniz Aracı</li>
       </ul>
     </div>
     <div class="footer-col">

@@ -22,13 +22,15 @@ button {
   width: 100%;
   height:60px;
   color: white;
-  background-color: rgba(255, 255, 255, 0.205);
+  background-color: rgba(17, 17, 17, 0.7);
+  backdrop-filter: blur(12px);       /* Frosty blur effect */
+  -webkit-backdrop-filter: blur(12px);
   padding: 0px;
   font-size: 30px;
   text-decoration:none;
 }
 .nav-bottom-line-css {
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.484);
   margin: 0;
   padding: 0;
 }

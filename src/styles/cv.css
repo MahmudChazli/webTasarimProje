@@ -1,0 +1,22 @@
+/* Custom Glassmorphism Effect */
+.cv-card {
+  background: rgba(17, 17, 17, 0.7); /* Dark semi-transparent */
+  backdrop-filter: blur(12px);       /* Frosty blur effect */
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1.5rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+/* Ensure background covers the whole page while scrolling */
+body {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Adjust footer margin to work with Tailwind flex-col */
+#footer-section {
+  margin-top: auto !important;
+}

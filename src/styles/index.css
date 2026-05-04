@@ -1,27 +1,29 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 hr {
   margin: 0;
 }
 
 #about-section {
   width: 750px;
-  height: 270px;
-
-  margin-left: 30%;
+  height: auto;
+  min-height: 270px;
   margin-top: 45px;
-
+  margin-left: 15px;
   border-radius: 20px;
   border: 2px solid #ffffff8b;
-
   box-shadow: 0px 0px 30px 10px rgba(255, 255, 255, 0.22);
   background: #505050bd;
-  color:rgba(240, 239, 239, 0.882);
-
+  color: rgba(240, 239, 239, 0.882);
   font-weight: bold;
 }
 
 #profile-picture {
   opacity: 90%;
-
   width: 400px;
   padding: 10px;
   margin: 10px;
@@ -29,35 +31,31 @@ hr {
 }
 
 #redirect-div {
-  width: 1100px;
-  height: 400px;
-
-  margin-left: 20%;
+  max-width: 1100px;
+  width: auto;
+  height: auto;
+  min-height: 320px;
   margin-top: 50px;
   padding-top: 20px;
-
   justify-content: center;
   border-radius: 100px;
-
-  background-color:rgba(49, 49, 49, 0.436);
+  background-color: rgba(49, 49, 49, 0.436);
   box-shadow: 0px 0px 30px 10px rgba(49, 49, 49, 0.523);
 }
 
 .redirect-btn {
   font-size: 60px;
-
   padding: 10px;
-  margin: 5%;
-  margin-top: 6%;
-
+  margin: 15px;
+  margin-top: 25px;
   height: 230px;
-  width: 100%;
-
+  width: 230px;
   border-radius: 20px;
-
   background-color: rgba(0, 0, 0, 0.659);
   transition-duration: 0.2s;
+  color: white;
 }
+
 .redirect-btn:hover {
   box-shadow: 0px 0px 30px 1px white;
   background-color: rgba(255, 255, 255, 0.712);

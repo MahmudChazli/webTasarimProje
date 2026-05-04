@@ -1,6 +1,10 @@
 body {
   font-family: Arial, Helvetica, sans-serif;   
-  background-image: url(../images/pattern/mainPattern.jpg);
+  background-image: url(../images/pattern/blurred-image.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -21,7 +25,7 @@ button {
   position: fixed;
   width: 100%;
   height:60px;
-  color: white;
+  color: rgb(255, 255, 255);
   background-color: rgba(17, 17, 17, 0.7);
   backdrop-filter: blur(12px);       /* Frosty blur effect */
   -webkit-backdrop-filter: blur(12px);
@@ -30,7 +34,7 @@ button {
   text-decoration:none;
 }
 .nav-bottom-line-css {
-  border: 1px solid rgba(255, 255, 255, 0.484);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   margin: 0;
   padding: 0;
 }

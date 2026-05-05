@@ -46,7 +46,7 @@
 
         <section class="glass-card p-8">
           <h2 class="text-2xl font-bold mb-4 text-[#ff8c00]">02. İstanbul</h2>
-          <p class="text-gray-300">2014 beri İstanbul'un Avrupa Yakasında yaşıyorum</p>
+          <p class="text-gray-300">2014'ten beri İstanbul'un Avrupa Yakası'nda yaşıyorum.</p>
         </section>
       </div>
 

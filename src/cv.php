@@ -3,7 +3,6 @@
 <head>
   <?php include 'php/essentialHead.php'; ?>
   <link rel="stylesheet" href="./styles/cv.css">
-  <title>CV - Mahmud Chazli</title>
 </head>
 
 <body>
@@ -42,10 +41,10 @@
         <!-- Right Column: Projects & Experience -->
         <div class="md:col-span-2 space-y-8">
           <section>
-            <h2 class="text-[#ff8c00] text-sm font-bold uppercase tracking-widest mb-4">Öne Çıkan Projeler</h2>
+            <h2 class="text-[#ff8c00] text-sm font-bold uppercase tracking-widest mb-4">Projeler</h2>
             
             <div class="mb-6" style="margin-left:7px;">
-              <h3 class="text-xl font-semibold">TEKNOFEST İnsansız Deniz Aracı</h3>
+              <h3 class="text-xl font-semibold">Teknofest İnsansız Deniz Aracı</h3>
               <p class="text-sm text-gray-300 mt-2">
                 ROS 2 Humble üzerinde otonom rota takibi, engel tespiti ve Kaçınma algoritmalarının implementasyonu.
               </p>

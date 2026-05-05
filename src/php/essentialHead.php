@@ -10,3 +10,5 @@
 <script src="https://cdn.tailwindcss.com"></script>
 
 <link href="./images/icons/profilePicture.ico" rel="icon" type="image/x-icon">
+
+ <title>Web Tasarım Ödev</title>

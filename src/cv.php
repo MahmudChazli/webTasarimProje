@@ -6,7 +6,7 @@
   <title>CV - Mahmud Chazli</title>
 </head>
 
-<body class="flex flex-col min-h-screen m-0 text-white font-sans">
+<body>
   <?php include 'php/navGeri.php';?>
 
   <main class="grow flex justify-center items-start pt-28 pb-12 px-4">

@@ -20,7 +20,7 @@
           </div>
         </div>
         <div id="profile-border"></div>
-        <aside class="text-center" style="padding:85px 10px 0px 10px; font-size:20px;">
+        <aside class="text-center p-[10px] pt-[85px] pb-[0px] text-[20px]">
             Merhaba ben Mahmud Chazlı'yım <br>
             <p style="text-wrap:nowrap;">Sakarya Üniversitesi Bilgisayar Mühendisliği okuyorum.</p>
             Bilgisayarlar küçüken beri ilgimi çekiyordu hem yazılım açısından hem de dönanım açısından.

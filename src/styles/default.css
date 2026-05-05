@@ -24,11 +24,10 @@ button {
 .nav-css {
   position: fixed;
   width: 100%;
-  height:60px;
+  height:55px;
   color: rgb(255, 255, 255);
   background-color: rgba(17, 17, 17, 0.7);
-  backdrop-filter: blur(12px);       /* Frosty blur effect */
-  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
   padding: 0px;
   font-size: 30px;
   text-decoration:none;

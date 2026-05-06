@@ -19,9 +19,13 @@
           <div class="w-full h-full shrink-0 relative">
             <img src="./images/sehir/istanbul1.jpg" 
             class="w-full h-full object-cover shrink-0" alt="Kayaşehir">
-
+            
             <span class="absolute top-4 right-4 px-3 py-1 rounded-lg backdrop-blur-md bg-black/60">
-              Kayaşehir, İstanbul
+              Başakşehir, İstanbul
+            </span>
+            
+            <span class="absolute top-12 right-4 px-3 py-1 rounded-lg backdrop-blur-md bg-black/60">
+              Kayaşehir Ramadan
             </span>
           </div>
 
@@ -29,9 +33,13 @@
           <div class="w-full h-full shrink-0 relative">
             <img src="./images/sehir/istanbul2.jpg" 
             class="w-full h-full object-cover shrink-0" alt="Eminönü">
-
+            
             <span class="absolute top-4 right-4 px-3 py-1 rounded-lg backdrop-blur-md bg-black/60 border border-white/10">
               Küçükçekmece, İstanbul
+            </span>
+            
+            <span class="absolute top-12 right-4 px-3 py-1 rounded-lg backdrop-blur-md bg-black/60">
+              Tema World
             </span>
           </div>
 
@@ -43,6 +51,10 @@
             <span class="absolute top-4 right-4 px-3 py-1 rounded-lg backdrop-blur-md bg-black/60 border border-white/10">
               Fatih, İstanbul
             </span>
+
+            <span class="absolute top-12 right-4 px-3 py-1 rounded-lg backdrop-blur-md bg-black/60">
+              Galata Külesi
+            </span>
           </div>
 
           <!-- Slide -->
@@ -52,6 +64,10 @@
 
             <span class="absolute top-4 right-4 px-3 py-1 rounded-lg backdrop-blur-md bg-black/60 border border-white/10">
               Eski Halep, Suriye
+            </span>
+
+            <span class="absolute top-12 right-4 px-3 py-1 rounded-lg backdrop-blur-md bg-black/60">
+              Halep Kalesi
             </span>
           </div>
 
@@ -63,6 +79,10 @@
             <span class="absolute top-4 right-4 px-3 py-1 rounded-lg backdrop-blur-md bg-black/60 border border-white/10">
               Belek, Antalya
             </span>
+
+            <span class="absolute top-12 right-4 px-3 py-1 rounded-lg backdrop-blur-md bg-black/60">
+              Max Royal
+            </span>
           </div>
 
           <!-- Slide -->
@@ -72,6 +92,10 @@
 
             <span class="absolute top-4 right-4 px-3 py-1 rounded-lg backdrop-blur-md bg-black/60 border border-white/10">
               Çankaya, Ankara
+            </span>
+
+            <span class="absolute top-12 right-4 px-3 py-1 rounded-lg backdrop-blur-md bg-black/60">
+              Anıtkabir
             </span>
           </div>
 
@@ -83,6 +107,10 @@
             <span class="absolute top-4 right-4 px-3 py-1 rounded-lg backdrop-blur-md bg-black/60 border border-white/10">
               Abu Dabi, BAE
             </span>
+
+            <span class="absolute top-12 right-4 px-3 py-1 rounded-lg backdrop-blur-md bg-black/60">
+              Şeyh Zayid Camii
+            </span>
           </div>
 
           <!-- Slide -->
@@ -91,7 +119,11 @@
             class="w-full h-full object-cover shrink-0" alt="Bebek">
             
             <span class="absolute top-4 right-4 px-3 py-1 rounded-lg backdrop-blur-md bg-black/60 border border-white/10">
-              Lagkawi, Malezya
+              Langkawi, Malezya
+            </span>
+
+            <span class="absolute top-12 right-4 px-3 py-1 rounded-lg backdrop-blur-md bg-black/60">
+              Langkawi Sky Bridge
             </span>
           </div>
 
@@ -101,7 +133,11 @@
             class="w-full h-full object-cover shrink-0" alt="Bebek">
 
             <span class="absolute top-4 right-4 px-3 py-1 rounded-lg backdrop-blur-md bg-black/60 border border-white/10">
-              Lagkawi, Malezya
+              Langkawi, Malezya
+            </span>
+
+            <span class="absolute top-12 right-4 px-3 py-1 rounded-lg backdrop-blur-md bg-black/60">
+              Ritz Carlton
             </span>
           </div>
 

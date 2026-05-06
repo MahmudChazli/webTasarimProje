@@ -37,8 +37,8 @@
       </button>
 
       <button class="redirect-btn" id="profile-border"
-              onclick="window.open('./iletisim.php', '_self')">
-        iletişim
+              onclick="window.open('./ilgiAlanlar.php', '_self')">
+        İlgili Alanlar
       </button>
     </div>
   </main>

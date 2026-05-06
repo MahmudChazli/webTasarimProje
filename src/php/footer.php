@@ -1,24 +1,47 @@
 <footer id="footer-section">
   <div class="footer-container">
-    <div class="footer-col main-col">
+    <div class="footer-col-css main-col">
       <h2 style="font-size: 24px; margin-bottom: 10px;">Mahmud Chazli</h2>
       <p>Sakarya Üniversitesi Bilgisayar Mühendisliği Öğrencisi</p>
     </div>
-    <div class="footer-col">
+
+    <div class="footer-col-css">
       <h3>PROJELER</h3>
       <ul>
-        <li>İnsansız Deniz Aracı</li>
+        <li>
+          <a href="./cv.php">
+            İnsansız Deniz Aracı
+          </a>
+        </li>
       </ul>
     </div>
-    <div class="footer-col">
+
+    <div class="footer-col-css">
       <h3>SOSYAL</h3>
       <ul>
         <li>
-          <a style="color:white;" href="https://github.com/MahmudChazli/" target="_blank">
+          <a href="https://github.com/MahmudChazli/" target="_blank">
             GitHub
           </a>
         </li>
       </ul>
     </div>
+  
+    <div class="footer-col-css">
+      <h3>İşlemler</h3>
+      <ul class="text-[14px]">
+        <li>
+          <a href="./giris.php">
+            Giriş
+          </a>
+        </li>
+        <li>
+          <a href="./iletisim.php">
+            İletişim
+          </a>
+        </li>
+      </ul>
+    </div>
+
   </div>
 </footer>

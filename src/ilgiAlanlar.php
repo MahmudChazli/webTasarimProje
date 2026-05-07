@@ -6,7 +6,7 @@
 </head>
 
 <body>
-  <?php include 'php/navGeri.php'; ?>
+  <?php include 'php/nav.php'; ?>
 
   <main class="container mx-auto px-8 py-20">
     <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 

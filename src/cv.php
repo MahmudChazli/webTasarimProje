@@ -6,7 +6,7 @@
 </head>
 
 <body>
-  <?php include 'php/navGeri.php';?>
+  <?php include 'php/nav.php';?>
 
   <main class="grow flex justify-center items-start pt-28 pb-12 px-4">
     

@@ -1,0 +1,4 @@
+.blured-background {
+  background: rgba(147, 147, 147, 0.154);
+  -webkit-backdrop-filter: blur(15px);
+}

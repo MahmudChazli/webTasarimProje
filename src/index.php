@@ -6,7 +6,9 @@
 </head>
 
 <body>
-  <main class="inline-flex" style="margin: 0 20% 0 20%; width:fit-content; flex-direction:column;">
+  <?php include 'php/nav.php'; ?>
+
+  <main class="inline-flex w-fit flex-col pt-14" style="margin: 0 20% 0 20%;">
     <div class="flex justify-center" id="about-section">
       <div class="grid grid-cols-1">
         <div>

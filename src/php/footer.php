@@ -26,22 +26,6 @@
         </li>
       </ul>
     </div>
-  
-    <div class="footer-col-css">
-      <h3>İşlemler</h3>
-      <ul class="text-[14px]">
-        <li>
-          <a href="./giris.php">
-            Giriş
-          </a>
-        </li>
-        <li>
-          <a href="./iletisim.php">
-            İletişim
-          </a>
-        </li>
-      </ul>
-    </div>
 
   </div>
 </footer>

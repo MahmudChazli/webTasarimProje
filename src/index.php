@@ -8,39 +8,72 @@
 <body>
   <?php include 'php/nav.php'; ?>
 
-  <main class="inline-flex w-fit flex-col pt-14" style="margin: 0 20% 0 20%;">
-    <div class="flex justify-center" id="about-section">
-      <div class="grid grid-cols-1">
+  <main class="container mx-auto px-4 pt-32 pb-20 flex flex-col items-center">
+    
+    <div id="about-section" class="flex flex-col md:flex-row items-center gap-8 p-8 w-full h-auto max-w-4xl 
+                bg-[#93939327] backdrop-blur-md border border-white/10 rounded-3xl 
+                shadow-[0_25px_50px_-12px_rgba(30,30,30,0.5)] mb-50">
+      
+      <div class="flex flex-col items-center shrink-0">
         <div>
-          <img class="rounded-full" id="profile-picture" src="./images/profilePicture.jpg" alt="Mahmud Chazli Profile Picture">
+          <img class="w-48 h-48 md:w-64 md:h-64 rounded-full p-2.5 opacity-90 object-cover" 
+               id="profile-picture" src="./images/profilePicture.jpg" alt="Mahmud Chazli Profile fotorafı">
         </div>
-        <hr id="profile-border">
-        <div class="text-center align-baseline" style="font-weight: bold; font-size: 23px;">
+        <hr class="w-full border-white/10 my-2 border">
+        <div class="text-center font-bold text-[23px]">
           Mahmud chazlı
         </div>
       </div>
-      <div id="profile-border"></div>
-      <aside class="text-center text-[20px]" style="padding:85px 10px 0px 10px;">
+
+      <div class="hidden md:block w-px h-32 border border-white/10 bg-white/10"></div>
+
+      <aside class="text-center md:text-left text-[20px] leading-relaxed">
           Merhaba ben Mahmud Chazlı'yım <br>
-          <p style="text-wrap:nowrap;">Sakarya Üniversitesi Bilgisayar Mühendisliği okuyorum.</p>
+          Sakarya Üniversitesi Bilgisayar Mühendisliği okuyorum.
           Bilgisayarlar küçüken beri ilgimi çekiyordu hem yazılım açısından hem de dönanım açısından.
       </aside>
     </div>
 
-    <div class="flex items-center" id="redirect-div">
-      <button class="redirect-btn" id="profile-border"
-              onclick="window.open('./cv.php', '_self')">
+    <div class="mt-10 mb-5 bg-[#93939327] backdrop-blur-md border border-white/10 h-auto
+            w-full max-w-4xl rounded-3xl p-5 shadow-lg"
+            style="min-height:400px;">
+
+  <div class="text-[40px] text-center mb-10 font-bold">Hobiler</div>
+
+  <div class="flex flex-col md:flex-row justify-center items-stretch text-[22px]">
+
+    <div class="flex-1 flex flex-col items-center justify-center p-8 text-center">
+      Rubik Küp
+    </div>
+
+    <div class="flex-1 flex flex-col items-center justify-center p-8 text-center 
+                md:border-l md:border-r border-white/10 my-4 md:my-0">   
+      Oyun Oynamak
+    </div>
+
+    <div class="flex-1 flex flex-col items-center justify-center p-8 text-center">    
+      Kodlama
+    </div>
+
+  </div>
+</div>
+
+
+    
+    <div class="mt-12 p-10 w-full max-w-5xl flex flex-wrap justify-center items-center gap-6 
+                bg-[#3131316f] rounded-4xl md:rounded-[100px] shadow-[0_0_30px_10px_rgba(83,83,83,0.448)]" 
+         id="redirect-div">
+      
+      <button class="redirect-btn" onclick="window.open('./cv.php', '_self')">
         CV
       </button>
 
-      <button class="redirect-btn" id="profile-border"
-              onclick="window.open('./sehrim.php', '_self')">
+      <button class="redirect-btn" onclick="window.open('./sehrim.php', '_self')">
         Şehrim
       </button>
 
-      <button class="redirect-btn" id="profile-border"
-              onclick="window.open('./ilgiAlanlar.php', '_self')">
-        İlgili Alanlar
+      <button class="redirect-btn" onclick="window.open('./ilgiAlanlar.php', '_self')">
+        İlgi Alanlar
       </button>
     </div>
   </main>

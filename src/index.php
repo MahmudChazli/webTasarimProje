@@ -8,7 +8,7 @@
 <body>
   <?php include 'php/nav.php'; ?>
 
-  <main class="container mx-auto px-4 pt-32 pb-20 flex flex-col items-center">
+  <main class="container mx-auto px-4 pt-24 pb-20 flex flex-col items-center">
     
     <div id="about-section" class="flex flex-col md:flex-row items-center gap-8 p-8 w-full h-auto max-w-4xl 
                 bg-[#93939327] backdrop-blur-md border border-white/10 rounded-3xl 
@@ -35,29 +35,40 @@
     </div>
 
     <div class="mt-10 mb-5 bg-[#93939327] backdrop-blur-md border border-white/10 h-auto
-            w-full max-w-4xl rounded-3xl p-5 shadow-lg"
-            style="min-height:400px;">
+              w-full max-w-4xl rounded-3xl p-8 shadow-lg">
 
-  <div class="text-[40px] text-center mb-10 font-bold">Hobiler</div>
+      <div class="text-[40px] text-center mb-10 font-bold">Hobiler</div>
 
-  <div class="flex flex-col md:flex-row justify-center items-stretch text-[22px]">
+      <div class="flex flex-col md:flex-row justify-center items-start text-[22px] gap-4">
 
-    <div class="flex-1 flex flex-col items-center justify-center p-8 text-center">
-      Rubik Küp
+        <div class="flex-1 flex flex-col items-center p-4 text-center w-full">
+          <div class="border-b border-white/20 pb-2 w-full">Rubik Küp</div>
+          <div class="text-[16px] pt-5">
+            2019'dan beri Rubik Küp çözüyorum <br>
+            <a href="https://www.worldcubeassociation.org/persons/2019CHAZ01" 
+              target="_blank" class="hover:text-blue-400 underline decoration-white/20">
+              WCA Hesabım
+            </a>
+          </div>
+        </div>
+
+        <div class="flex-1 flex flex-col items-center p-4 text-center w-full
+                    md:border-l md:border-r border-white/10 my-4 md:my-0">   
+          <div class="border-b border-white/20 pb-2 w-full">Oyun Oynamak</div>
+          <div class="text-[16px] pt-5">
+            Oyun oynamayı seviyorum
+          </div>
+        </div>
+
+        <div class="flex-1 flex flex-col items-center p-4 text-center w-full">    
+          <div class="border-b border-white/20 pb-2 w-full">Kodlama</div>
+          <div class="text-[16px] pt-5">
+            Kodun bilgisayarla nasıl çalıştığını görmekten zevk alıyorum
+          </div>
+        </div>
+
+      </div>
     </div>
-
-    <div class="flex-1 flex flex-col items-center justify-center p-8 text-center 
-                md:border-l md:border-r border-white/10 my-4 md:my-0">   
-      Oyun Oynamak
-    </div>
-
-    <div class="flex-1 flex flex-col items-center justify-center p-8 text-center">    
-      Kodlama
-    </div>
-
-  </div>
-</div>
-
 
     
     <div class="mt-12 p-10 w-full max-w-5xl flex flex-wrap justify-center items-center gap-6 

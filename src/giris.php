@@ -31,9 +31,9 @@
 
         <div class="pr-5 pl-5">
           <button type="submit" 
-                  class="mb-3 w-full bg-[#ed960aa1] hover:bg-[#ed960acd] font-medium py-3
-                        rounded-xl transition-all duration-200 transform hover:scale-[1.02]">
-            JS ile Giriş
+                  class="mb-3 w-full  bg-green-500/30 hover:bg-green-500/50 text-green-400 font-bold py-3
+                        rounded-xl duration-200">
+            Giriş
           </button>
         </div>
 

@@ -12,12 +12,12 @@
     
     <div id="about-section" class="flex flex-col md:flex-row items-center gap-8 p-8 w-full h-auto max-w-4xl 
                 bg-[#93939327] backdrop-blur-md border border-white/10 rounded-3xl 
-                shadow-[0_25px_50px_-12px_rgba(30,30,30,0.5)] mb-50">
+                shadow-[0_25px_50px_-12px_rgba(30,30,30,0.5)] mb-5">
       
       <div class="flex flex-col items-center shrink-0">
         <div>
-          <img class="w-48 h-48 md:w-64 md:h-64 rounded-full p-2.5 opacity-90 object-cover" 
-               id="profile-picture" src="./images/profilePicture.jpg" alt="Mahmud Chazli Profile fotorafı">
+          <img class="w-64 h-64 mx-auto rounded-full p-2.5 opacity-90 object-cover" 
+               src="./images/profilePicture.jpg" alt="Mahmud Chazli Profile fotorafı">
         </div>
         <hr class="w-full border-white/10 my-2 border">
         <div class="text-center font-bold text-[23px]">

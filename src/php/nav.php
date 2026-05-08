@@ -2,7 +2,7 @@
      style="padding: 5px 15px;">
   
   <div class="flex-1 flex justify-start gap-6">
-    <a onclick="window.history.back()" class="cursor-pointer hover:opacity-70">&#8592;</a>
+    <a onclick="goBack()" class="cursor-pointer hover:opacity-70">&#8592;</a>
 
     <?php if(basename($_SERVER['SCRIPT_NAME']) != 'index.php'): ?>
 
@@ -16,4 +16,14 @@
     <a class="cursor-pointer hover:opacity-70" href="./giris.php">Giriş</a>
   </div>
 
+
+
+  <script>
+    function goBack() {
+      if (document.referrer && document.referrer.includes(window.location.hostname)) {
+        window.history.back();
+
+      }
+    }
+  </script>
 </nav>

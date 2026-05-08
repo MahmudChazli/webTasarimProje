@@ -62,7 +62,7 @@
 
         <div v-if="isSubmitted" class="mt-8 p-6 bg-green-500/20 border border-green-500/50 rounded-2xl text-center">
             <h3 class="text-xl font-bold text-green-400">Mesajınız Alındı!</h3>
-            <p class="opacity-80 mt-2">Teşekkürler, {{ formData.name }}. Veriler JSON olarak kaydedildi.</p>
+            <p class="opacity-80 mt-2">Mesajınız Başarıla Gönderildi.</p>
         </div>
 
       </div>

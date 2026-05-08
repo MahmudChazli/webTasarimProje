@@ -63,7 +63,7 @@
         <div class="flex-1 flex flex-col items-center p-4 text-center w-full">    
           <div class="border-b border-white/20 pb-2 w-full">Kodlama</div>
           <div class="text-[16px] pt-5">
-            Kodun bilgisayarla nasıl çalıştığını görmekten zevk alıyorum
+            Kodun bilgisayarda nasıl çalıştığını görmek bana zevk veriyor.
           </div>
         </div>
 

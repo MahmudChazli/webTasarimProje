@@ -5,7 +5,7 @@
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 </head>
 
-<body class="bg-[#121212] text-white">
+<body>
   <?php include 'php/nav.php'; ?>
 
   <div id="app">
@@ -84,11 +84,13 @@
       const name = form.name.value.trim();
       const email = form.email.value.trim();
       const phone = document.getElementById('phone_field').value.trim();
+      const message = form.message.value.trim();
+      const subject = form.subject.value;
       
       const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       const phonePattern = /^[0-9]+$/;
 
-      if (!name || !email || !phone) {
+      if (!name || !email || !phone || !message) {
         alert("Lütfen tüm alanları doldurunuz.");
         return;
       }
@@ -101,8 +103,30 @@
         return;
       }
 
-      document.getElementById('phone_field').value = "";
-      form.submit();
+      const data = new FormData();
+      data.append('name', name);
+      data.append('email', email);
+      data.append('phone', phone);
+      data.append('subject', subject);
+      data.append('message', message);
+
+      fetch('php/iletisimKontrol.php', {
+        method: 'POST',
+        body: data
+      })
+      .then(response => {
+        if (response.ok) {
+          const appElement = document.getElementById('app');
+          const vueInstance = appElement.__vue_app__._instance.proxy;
+          vueInstance.formData.name = name;
+          vueInstance.isSubmitted = true;
+        } else {
+          alert("Bir hata oluştu.");
+        }
+      })
+      .catch(error => {
+        alert("Sunucu hatası.");
+      });
     }
 
     const { createApp, ref } = Vue;
@@ -116,18 +140,19 @@
 
         const submitFormVue = () => {
           const phonePattern = /^[0-9]+$/;
-          if (!formData.value.name || !formData.value.email || !formData.value.phone) {
-            alert("Vue Hatası: Lütfen tüm alanları doldurun.");
+          if (!formData.value.name || !formData.value.email || !formData.value.phone || !formData.value.message) {
+            alert("Lütfen tüm alanları doldurun.");
             return;
           }
           if (!phonePattern.test(formData.value.phone)) {
-            alert("Vue Hatası: Telefon sadece rakam olmalıdır.");
+            alert("Telefon sadece rakam olmalıdır.");
             return;
           }
 
           const data = new FormData();
           data.append('name', formData.value.name);
           data.append('email', formData.value.email);
+          data.append('phone', formData.value.phone);
           data.append('subject', formData.value.subject);
           data.append('message', formData.value.message);
 

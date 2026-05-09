@@ -1,14 +1,8 @@
 <?php
-/**
- * login_check.php - Multi-User Support
- */
-
-// 1. Get the values from the POST request
 $email = $_POST['email'] ?? '';
 $password = $_POST['password'] ?? '';
 
-// 2. Define an Associative Array of valid users
-// Format: "email" => "password"
+
 $users = [
     "b1812100001@sakarya.edu.tr" => "b1812100001",
     "admin@sakarya.edu.tr" => "admin",
@@ -23,7 +17,6 @@ if (array_key_exists($email, $users) && $users[$email] === $password) {
     $logged_in_user_id = explode('@', $email)[0];
 }
 
-// 4. Validation Logic
 if ($login_success) {
     echo "<!DOCTYPE html>
     <html lang='tr-TR'>
